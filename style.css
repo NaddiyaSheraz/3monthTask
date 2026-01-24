@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.wreap{
+    height: 50px;
+    background-color: #d1bda4;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: center;
+    font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #614237;
+}
+
+.wreap img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(251, 218, 218);
+    padding: 0;
+}
+
+.navbar{
+    background-color: white;
+    color: black;
+    height: 80px;
+    width: 100wh;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+    box-shadow: 0;
+}
+
+.navLeft{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    align-items: center;
+    gap: 1.5em;
+    /* background-color: rgb(8, 75, 75); */
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(251, 218, 218);
+    padding: 0;
+}
+.navCenter ul{
+    display: flex;
+    gap: 1em;
+    /* background-color: blue; */
+}
+.navCenter ul li{
+    list-style: none;
+}
+
+.navbtn{
+    /* background-color: bisque; */
+    padding: 8px 20px;
+    border-radius: 1.2em;
+    color: black;
+    background-color: rgb(251, 218, 218);
+    /* color: white; */
+    border: none;
+}
