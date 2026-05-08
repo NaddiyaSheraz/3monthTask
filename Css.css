@@ -1,0 +1,139 @@
+.case1 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case2 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case3 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case4 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case5 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 50% 0 50% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case6 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 0 50% 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case7 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case8 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 8px solid pink;
+  border-right: 8px solid lightblue;
+  border-bottom: 8px solid purple;
+  border-left: 8px solid red;
+  border-radius: 50% 50% 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case9 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 12px solid pink;
+  border-right: 12px solid lightblue;
+  border-bottom: 12px solid purple;
+  border-left: 12px solid red;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.case10 {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-top: 16px solid pink;
+  border-right: 16px solid lightblue;
+  border-bottom: 16px solid purple;
+  border-left: 16px solid red;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
