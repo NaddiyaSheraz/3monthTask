@@ -289,3 +289,87 @@
 
 
 /* <!-- HeroSection end --> */
+
+/* Footer start */
+
+.lux-footer {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: #f5f5f5;
+    padding: 60px 20px 20px;
+    /* margin-top: 60px; */
+    font-family: "Poppins", sans-serif;
+    border-top: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+/* container */
+.lux-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* columns */
+.lux-col {
+    flex: 1;
+    min-width: 220px;
+}
+
+.lux-logo {
+    width: 130px;
+    margin-bottom: 15px;
+}
+
+/* headings */
+.lux-col h3 {
+    color: #6b483d; /* gold */
+    margin-bottom: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+/* links */
+.lux-col a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 8px 0;
+    transition: 0.3s;
+}
+
+.lux-col a:hover {
+    color: #6b483d;
+    transform: translateX(5px);
+}
+
+/* text */
+.lux-col p {
+    color: #bbb;
+    line-height: 1.6;
+    margin: 6px 0;
+}
+
+/* social icons */
+.lux-icons i {
+    font-size: 20px;
+    margin-right: 12px;
+    color: #bbb;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lux-icons i:hover {
+    color: #6b483d;
+    transform: scale(1.2);
+}
+
+/* bottom bar */
+.lux-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    color: #888;
+    font-size: 14px;
+}
+    /* footer end */
