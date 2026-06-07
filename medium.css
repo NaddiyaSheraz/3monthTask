@@ -31,3 +31,48 @@
     .log::after {
         content: "hello";
     }
+
+    @media (max-width: 900px) {
+
+    .lux-container {
+        gap: 30px;
+    }
+
+    .lux-col {
+        flex: 1 1 45%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .lux-footer {
+        padding: 40px 15px 15px;
+        text-align: center;
+    }
+
+    .lux-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .lux-col {
+        flex: 1 1 100%;
+    }
+
+    .lux-col a {
+        margin: 6px 0;
+    }
+
+    .lux-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .lux-icons i {
+        margin-right: 0;
+    }
+}
